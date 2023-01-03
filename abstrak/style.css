@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1000px;
+    border: 0 solid black;
+    border-radius: 7px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: white;
+    margin: 30px auto ;
+    overflow: hidden;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    align-items: center;
+}
+
+.header>*{
+    color: white;
+    margin: 10px;
+}
+
+.headerkiri>*{
+    margin-right: 6px;
+}
+
+.headerkanan{
+    background-color: #4C5FD5;
+    cursor: pointer;
+    padding: 7px;
+    text-align: center;
+    width: 100px;
+    border-radius: 5px;
+}
+
+.headerkanan:hover{
+    transition: 1s;
+    background-color: #3349d4;
+}
+
+.searchbar{
+    width: 100%;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #dadbf1;
+}
+
+.how{
+    font-size: 2em;
+    color: black;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.searchinput{
+    background-color: white;
+    min-width: 400px;
+    display: flex;
+    border: 1px solid black;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.input{
+    outline: none;
+    border: none;
+}
+
+.nexticon{
+    margin-left: 5px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.main{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 90px auto;
+}
+
+.layanan{
+    width: 40%;
+    padding: 20px;
+}
+
+.fontmain{
+    margin-left: 30px;
+}
+
+.fontmain>*{
+    margin: 10px;
+    text-decoration: none;
+}
+
+.layanansatu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.layanandua{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.layanantiga{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.layananempat{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.layananlima{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.layananenam{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer{
+    background-color: black;
+    display: flex;
+    min-height: 300px;
+    width: 100%;
+    padding: 40px;
+}
+
+.footer>*{
+    margin: 10px;
+    width: 20%;
+    color: white;
+}
+
+.fontfooter{
+    font-size: 12px;
+}
+
+.item5{
+    align-self: flex-end;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.item h3{
+    margin-bottom: 10px;
+}
+
+.fontfooter{
+    line-height: 20px;
+}
+
+.iconfooter{
+    margin-bottom: 10px;
+}
